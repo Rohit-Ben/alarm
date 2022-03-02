@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+  background: #d9e1e4;
+  color: white;
+}
+
+.red {
+  border: 1.5px solid red;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  -webkit-transform: translate(-50%, 20%);
+          transform: translate(-50%, 20%);
+  height: auto;
+  max-width: 680px;
+  background: #0f1620;
+  -webkit-box-shadow: 0px 0px 0px 20px #272e38;
+          box-shadow: 0px 0px 0px 20px #272e38;
+  padding: 1.2em;
+}
+
+.container h1 {
+  text-align: center;
+  color: #6ae3d3;
+  text-shadow: 0 0 5px #03cfbb;
+}
+
+.container .time {
+  color: #bef2e8;
+  text-shadow: 0 0 5px #03cfbb;
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 5px;
+}
+
+.container h3 {
+  color: #c2f7ece8;
+  margin-top: 2em;
+}
+
+.container input {
+  width: 15%;
+  text-align: center;
+  padding: 0.1em 0.1em;
+}
+
+.container .sub {
+  display: inline-block;
+  margin-top: 0.4em;
+  text-decoration: none;
+  padding: 0.12em 0.5em;
+  background: #c2f7ece8;
+  color: #0f1620;
+  border-radius: 2px;
+  margin-bottom: 0.5em;
+}
+
+.container .sub:hover {
+  background: none;
+  color: #c2f7ece8;
+  border: 1px solid #c2f7ece8;
+}
+
+.container .h2 {
+  text-shadow: 0 0 1.5px #c2f7ece8;
+}
+
+.container .box {
+  padding: 0.6em 0.3em;
+  border: 1px solid #c2f7ece8;
+  border-radius: 3px;
+  margin-bottom: 0.3em;
+  position: relative;
+  text-shadow: 0 0 1.2px #c2f7ece8;
+}
+
+.container .box .left {
+  text-shadow: none;
+  font-size: 0.6em;
+  letter-spacing: 2px;
+}
+
+.container .img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  position: absolute;
+  right: 0.3em;
+  top: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 660px) {
+  body {
+    font-size: 0.8em;
+  }
+  .container {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  body {
+    font-size: 0.8em;
+  }
+  .container {
+    width: 70%;
+  }
+  .container input {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 0.75em;
+  }
+  .container {
+    -webkit-box-shadow: 0px 0px 0px 8px #272e38;
+            box-shadow: 0px 0px 0px 8px #272e38;
+    width: 80%;
+  }
+  .container input {
+    width: 25%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
